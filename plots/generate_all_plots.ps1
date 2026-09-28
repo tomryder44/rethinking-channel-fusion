@@ -1,0 +1,15 @@
+py -m plots.plot_id_performance
+py -m plots.plot_channel_id_performance
+py -m plots.plot_domain_divergence
+py -m plots.plot_ood_performance
+py -m plots.plot_ood_performance_per_subject
+py -m plots.plot_encoders
+py -m plots.plot_num_filters
+py -m plots.plot_early_ensemble
+py -m plots.plot_ood_performance_middle_variants
+py -m plots.plot_late_weights
+py -m plots.plot_fusion_selection
+py -m plots.plot_sensor_corruptions
+py -m plots.plot_sensor_corruptions_mi
+py -m plots.plot_dg_hyp_sens
+py -m plots.table_ood
