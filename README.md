@@ -7,8 +7,8 @@ If something doesn't work or isn't clear (about the code or the paper), feel fre
 ## Set up
 First, clone the repo:
 ```bash
-git clone https://github.com/tomryder44/x.git
-cd ...
+git clone https://github.com/tomryder44/rethinking-channel-fusion.git
+cd rethinking-channel-fusion
 ```
 Then install the required packages:
 ```bash
