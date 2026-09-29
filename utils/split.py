@@ -1,8 +1,10 @@
 import os
+from paths import PROCESSED_DIR
 
 
 def get_loso_splits(dataset: str):
-    files = os.listdir(f"datasets/processed/{dataset}")
+    dataset_path = os.path.join(PROCESSED_DIR, dataset)
+    files = os.listdir(dataset_path)
     subjects = list(set(filename.split("_")[0] for filename in files))
     subjects.sort()
     splits_dict = {}
